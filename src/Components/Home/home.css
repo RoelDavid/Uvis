@@ -1,0 +1,39 @@
+.about-me--header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me--header h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #023047;
+}
+
+.languages button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.about-me--content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-me--content img{
+max-width: 50%;
+border-radius: 10px;
+box-shadow: 0px 0px 10px #023047;
+}
+
+.about-me--info {
+  max-width: 50%;
+  padding: 20px;
+}
+
